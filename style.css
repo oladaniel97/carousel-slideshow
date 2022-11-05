@@ -19,7 +19,6 @@ img{
 }
 
 .previous , .next{
-    /* display: none; */
     cursor: pointer;
     position: absolute;
     top: 40%;
@@ -33,7 +32,7 @@ img{
     border-radius: 0 3px 3px 0;
     user-select: none;
     opacity: 0;
-    background-color: rgb(87, 76, 76);
+   
 }
 
 .next{
@@ -43,7 +42,7 @@ img{
 
 .previous:hover , .next:hover{
     display: block;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgb(87, 76, 76);
     opacity: 1;
 }
 
@@ -59,11 +58,22 @@ img{
 
 .title {
     position: absolute;
-    bottom: 18px;
+    bottom: 22px;
     width: 100%;
     padding: 8px 12px;
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
-    color: rgb(75, 12, 12);
+    color: rgb(233, 223, 223);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(34, 17, 109);
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
 }
